@@ -46,7 +46,7 @@ export default function Register() {
 
                     <Link className="back-link" to="/">
                         <FiArrowLeft size={16} color="#e02041" />
-                        Não tenho cadastro
+                        Já tenho cadastro
                     </Link>
                 </section>
                 <form onSubmit={handleRegister}>
@@ -64,7 +64,7 @@ export default function Register() {
                         required="true"
                     />
                     <input
-                        placeholder="WhatsApp"
+                        placeholder="WhatsApp DDXXXXXXXXX"
                         value={whatsapp}
                         onChange={e => setWhatsapp(e.target.value)}
                         required="true"

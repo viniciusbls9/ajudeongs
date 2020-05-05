@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "Be the Hero",
+    "slug": "bethehero",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,7 +21,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.viniciuscompany.ajudeong"
+    },
+    "android": {
+      "package": "com.viniciuscompany.ajudeong"
     }
   }
 }
